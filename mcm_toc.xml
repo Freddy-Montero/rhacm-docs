@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toc label="SSFC4F_1.2.0_stage">
+    <topic label="Release notes" href="about/release_notes.html">
+        <topic label="What's new" href="about/whats_new.html"/>
+        <topic label="Known issues and limitations" href="about/known_issues.html"/>
+        <topic label="Stabilized, deprecated and removed function" href="about/deprecate.html"/>
+        <topic label="Accessibility features" href="accessibility.html"/>
+        <topic label="Supported languages" href="about/languages.html" />
+    </topic>
+    <topic label="Getting started" href="about/intro.html">
+        <topic label="Overview" href="about/overview.html"/>
+        <topic label="Multicluster architecture" href="mcm/getting_started/architecture.html"/>
+        <topic label="Installable modules" href="about/modules.html">
+            <topic label="Managing IBM Cloud App Management with IBM Multicloud Manager" href="mcm/mcm_featured/mcm_icam.html"/>
+            <topic label="Managing IBM Cloud Event Management with IBM Multicloud Manager" href="mcm/mcm_featured/mcm_cem.html"/>
+            <topic label="IBM Cloud Automation Manager and IBM Multicloud Manager integration" href="mcm/mcm_featured/mcm_cam.html"/>
+        </topic>
+        <topic label="Passport Advantage part numbers" href="about/part_numbers.html"/>
+        <topic label="Platform considerations for GDPR readiness" href="about/gdpr_readiness.html"/>
+        <topic label="Platform considerations for FIPS readiness" href="about/fips_compliance.html"/>
+        <topic label="Platform considerations for PCI readiness" href="about/pci_readiness.html"/>
+        <topic label="IBM customizable offline documentation" href="about/offline_docs.html"/>
+    </topic>
+    <topic label="Installation and upgrade" href="install/overview.html">
+        <topic href="install/requirements.html" label="System requirements">
+            <topic label="Hardware requirements and recommendations" href="install/hardware_reqs.html"/>
+            <topic label="Supported operating systems and platforms" href="install/supported_os.html"/>
+        </topic>
+        <topic label="Preparing for installation" href="install/prep.html"/>
+        <topic label="Offline" href="install/offline.html">
+            <topic label="Installing the Cloud Pak offline" href="install/cloud_pak_foundation.html"/>
+            <topic label="Installing IBM Cloud App Management" href="../SS8G7U_19.4.0/com.ibm.app.mgmt.doc/content/install_offline.html?cp=SSFC4F_1.2.0"/>
+            <topic label="Installing IBM Cloud Automation Manager" href="../SS2L37_4.1.0.0/cam_install_offline_icpos.html?cp=SSFC4F_1.2.0"  />
+            <topic label="Uninstalling the Cloud Pak offline" href="install/uninstall.html"/>
+            <topic label="Upgrading the Cloud Pak offline" href="install/upgrade_offline.html"/>
+        </topic>
+        <topic label="Online" href="install/online.html">
+            <topic label="Installing the Cloud Pak online" href="install/online_inception.html"/>
+            <topic label="Installing IBM Cloud App Management" href="../SS8G7U_19.4.0/com.ibm.app.mgmt.doc/content/install_online.html?cp=SSFC4F_1.2.0"/>
+            <topic label="Installing IBM Cloud Automation Manager" href="../SS2L37_4.1.0.0/cam_install_EE_online_icpos.html?cp=SSFC4F_1.2.0"  />
+            <topic label="Uninstalling the Cloud Pak online" href="install/uninstall_online.html"/>
+            <topic label="IBM Cloud" href="install/ibm_cloud.html">
+                <topic label="Installing the Cloud Pak on IBM Cloud" href="install/public_cloud.html"/>
+                <topic label="Uninstalling the Cloud Pak on IBM Cloud" href="install/uninstall_public_cloud.html"/>
+            </topic>
+        </topic>
+        <topic label="Configuration options" href="install/config_install.html">
+            <topic label="Customizing the cluster with the config.yaml file" href="installer/3.2.2/config_yaml.html"/>
+            <topic label="Multicluster config.yaml file settings" href="install/config_mcm.html"/>
+            <topic label="Configuring high availability" href="mcm/installing/mcm_ha.html"/>
+	    <topic label="Configuring high availability for IBM Cloud Pak for Multicloud Management components" href="mcm/installing/mcm_ha_comp.html"/>	
+            <topic label="Using Red Hat Ansible Tower" href="install/ansible_tower.html"/>
+            <topic label="Using CloudForms" href="install/cloudforms.html"/>
+            <topic label="Cluster configuration ConfigMap" href="installer/3.2.2/configmap_cluster.html"/>
+            <topic label="Customizing your installation" href="installer/3.2.2/custom_install.html"/>
+            <topic label="Endpoints" href="installer/3.2.2/cluster_endpoints.html"/>
+            <topic label="Creating a storage class for the IBM PowerVC FlexVolume Driver" href="mcm/manage_cluster/create_fvd_vol.html"/>
+            <topic label="Configuring the monitoring service" href="monitoring/1.7.0/monitoring.html"/>
+        </topic>
+    </topic>
+    <topic label="Security" href="mcm/compliance/security.html">
+        <topic label="Certificates in IBM Cloud Pak for Multicloud Management" href="cert-manager/3.4.0/certificates.html">
+            <topic label="Specifying your own certificate authority for IBM Cloud Pak for Multicloud Management services" href="cert-manager/3.4.0/specify_cert.html"/>
+            <topic label="Refreshing certificates" href="cert-manager/3.4.0/refresh_certs.html"/>
+            <topic label="Replacing certificates" href="cert-manager/3.4.0/byok_certs.html">
+                <topic label="Replacing the root CA certificate" href="cert-manager/3.4.0/cert_root_ca.html"/>
+                <topic label="Replacing management ingress certificates" href="cert-manager/3.4.0/cert_mgmt_ingress.html"/>
+                <topic label="Replacing image manager certificates" href="cert-manager/3.4.0/cert_image_mgr.html"/>
+	    </topic>
+            <topic label="Restoring certificates" href="cert-manager/3.4.0/restore_certs.html"/>
+            <topic label="IBM Certificate manager (cert-manager)" href="cert-manager/3.4.0/cert_manager.html">
+                <topic label="Creating your own self-signed and CA Issuers" href="cert-manager/3.4.0/create_issuer.html"/>
+                <topic label="Creating Certificate manager (cert-manager) certificates" href="cert-manager/3.4.0/create_cert.html">
+                    <topic label="Customizing cert-manager certificates" href="cert-manager/3.4.0/create_cert_advance.html"/>
+		</topic>
+                <topic label="Viewing IBM Cloud Pak for Multicloud Management cert-manager resources" href="cert-manager/3.4.0/cert_view.html"/>
+                <topic label="Refreshing cert-manager certificates" href="cert-manager/3.4.0/refresh_cert.html"/>
+                <topic label="Using Vault to issue certificates" href="cert-manager/3.4.0/cert_vault.html"/>
+                <topic label="Using ACME to issue certificates" href="cert-manager/3.4.0/cert_acme.html"/>
+                <topic label="Adding certificates by using the ECDSA algorithm for encryption" href="cert-manager/3.4.0/cert_ecdsa.html"/>
+                <topic label="Certificate Manager role-based access control (RBAC) support" href="cert-manager/3.4.0/cert_manager_rbac.html"/>
+                <topic label="Configmap watcher service" href="configmap-watcher/3.3.0/configmap_watcher.html"/>
+		</topic>
+	</topic>
+        <topic label="IBM Multicloud Manager Governance and risk" href="mcm/compliance/compliance_intro.html">
+            <topic label="IBM Multicloud Manager policy overview" href="mcm/compliance/policy_overview.html"/>
+            <topic label="IBM Multicloud Manager policy controllers" href="mcm/compliance/policy_controllers.html">
+                <topic label="Configuration policy controller" href="mcm/manage_policies/config_policy_ctrl.html"/>
+                <topic label="Mutation policy controller" href="mcm/manage_policies/ma_policy.html"/>
+                <topic label="Certificate policy controller" href="mcm/manage_policies/cert_policy_ctrl.html"/>
+                <topic label="Vulnerability policy controller" href="mcm/manage_policies/va_policy.html"/>
+                <topic label="Audit logging policy controller" href="mcm/compliance/audit_policy_ctrl.html"/>
+                <topic label="Secret encryption policy controller" href="mcm/manage_policies/encrypt_policy.html"/>
+                <topic label="IAM policy controller" href="mcm/compliance/iam_policy_ctrl.html"/>
+                <topic label="CIS policy controller" href="mcm/compliance/cis_policy_ctrl.html"/>
+            </topic>
+            <topic label="IBM Multicloud Manager policy example" href="mcm/compliance/policy_example.html"/>
+            <topic label="IBM Multicloud Manager policy samples" href="mcm/manage_policies/policy_samples.html"/>
+            <topic label="Security findings" href="mcm/manage_cluster/security_advisor.html"/>
+            <topic label="Creating an IBM Multicloud Manager policy" href="mcm/compliance/create_policy.html"/>
+            <topic label="Managing a security policy" href="mcm/manage_cluster/manage_grc_policy.html"/>
+            <topic label="Deleting an IBM Multicloud Manager policy" href="mcm/compliance/delete_policy.html"/>
+        </topic>
+		<topic label="Pod isolation" href="pod-security/3.4.0/iso_pod.html">
+            <topic label="Pod security" href="pod-security/3.4.0/security.html"/>
+			<topic label="Using namespaces with pod security policies" href="pod-security/3.4.0/pod_ms_psp.html"/>
+			<topic label="Planning for isolated pods" href="pod-security/3.4.0/pod_planning_long.html">
+				<topic label="Running privileged pods separately from un-privileged pods" href="pod-security/3.4.0/privpod_vs_unprivpod.html"/>
+				<topic label="Binding pod security policies to namespaces instead of service accounts" href="pod-security/3.4.0/bind_psp.html"/>
+				<topic label="Specifying one pod security policy per namespace" href="pod-security/3.4.0/namespace_psp.html"/>
+				<topic label="Avoiding creating Pods directly" href="pod-security/3.4.0/create_pod_dir.html"/>
+				<topic label="Using custom pod security policy to implement least privileged" href="pod-security/3.4.0/psp_least_priv.html"/>
+			</topic>
+			<topic label="Enabling pod isolation" href="pod-security/3.4.0/enable_pod_iso.html"/>
+			<topic label="Managing namespace bindings to pod security policies" href="pod-security/3.4.0/namespace_bind_psp.html">
+				<topic label="Checking for existing bindings" href="pod-security/3.4.0/existing_bindings.html"/>
+				<topic label="Adding a pod security policy binding from a namespace" href="pod-security/3.4.0/psp_addbind_ns.html"/>
+				<topic label="Removing a pod security policy binding to a namespace" href="pod-security/3.4.0/psp_rmbind_ns.html"/>
+			</topic>
+			<topic label="Deploying Cloud Paks and Helm charts" href="pod-security/3.4.0/deploy_cloudpak_helm.html">
+				<topic label="Cluster Administrator tasks" href="pod-security/3.4.0/cluster_admin.html"/>
+				<topic label="Creating a custom pod security policy" href="pod-security/3.4.0/custom_psp.html"/>
+				<topic label="Creating and binding namespaces to a pod security policy binding" href="pod-security/3.4.0/create_namespace_pspbind.html"/>
+			</topic>
+			<topic label="Team operator tasks" href="pod-security/3.4.0/team_operator_tasks.html">
+				<topic label="Install the chart" href="pod-security/3.4.0/install_chart.html"/>
+			</topic>
+        </topic>
+        <topic label="Vulnerability Advisor" href="mcm/manage_cluster/vuln_advisor_mcm.html">
+            <topic label="Configuring Vulnerability Advisor" href="mcm/manage_cluster/vuln_advisor_mcm.html#configure">
+            <topic label="Configuring the Vulnerability Advisor container crawler" href="mcm/manage_cluster/vuln_advisor_mcm.html#configure_c_crawler"/>
+            <topic label="Configuring the Vulnerability Advisor image crawler" href="mcm/manage_cluster/vuln_advisor_mcm.html#configure_i_crawler"/>
+            <topic label="Configuring the Vulnerability Advisor image crawler to rescan images" href="mcm/manage_cluster/vuln_advisor_mcm.html#configure_rescan"/>
+            <topic label="Configuring the Vulnerability Advisor image crawler to rescan images" href="mcm/manage_cluster/vuln_advisor_mcm.html#configure_rows"/>
+            </topic>
+            <topic label="Logs and report management" href="mcm/manage_cluster/vuln_advisor_mcm.html#logs">
+                <topic label="Configuring data curation interval of VA Minio cleaner" href="mcm/manage_cluster/vuln_advisor_mcm.html#configure_data"/>
+                <topic label="Accessing the Mutation Advisor" href="mcm/manage_cluster/vuln_advisor_mcm.html#mutation_advisor"/>
+                <topic label="Configuring log clean-up interval of Kafka cluster" href="mcm/manage_cluster/vuln_advisor_mcm.html#configure_logc"/>
+            </topic>
+	    <topic label="Deploying VA services on your nodes with a given label" href="mcm/manage_cluster/vuln_advisor_mcm.html#deploy_va"/>)
+            <topic label="Viewing security reports" href="mcm/manage_cluster/vuln_advisor_mcm.html#view_report"/>
+            <topic label="Managing policies" href="mcm/manage_cluster/vuln_advisor_mcm.html#manage_policy">
+                <topic label="Timing policy" href="mcm/manage_cluster/vuln_advisor_mcm.html#timing"/>
+                </topic>
+            <topic label="Updating security notices for the Vulnerability Advisor components" href="mcm/manage_cluster/vuln_advisor_mcm.html#update_security"/>
+            <topic label="Scanning an image registry with the Vulnerability Advisor (VA)" href="mcm/manage_cluster/external_scan.html"/>
+            <topic label="Enabling Mutation Advisor Advanced (MA++)" href="mcm/manage_cluster/ma_adv_mcm.html"/>
+            <topic label="Enabling Vulnerability (VA) with OpenShift logging" href="mcm/manage_cluster/va_openshift_mcm.html"/>
+        </topic>
+        <topic label="Audit logging adoption guide" href="audit-logging/3.3.0/audit_log_guide.html">
+                <topic label="Authentication and authorization audit logs" href="audit-logging/3.3.0/security_audit.html"/>
+                <topic label="Audit logging in your cluster" href="audit-logging/3.3.0/audit_logs.html"/>
+                <topic label="Audit logging data statistics" href="audit-logging/3.3.0/audit_log_k8_stats.html"/>
+                <topic label="Audit logging integration with enterprise SIEM tools" href="audit-logging/3.3.0/auditing.html">
+                    <topic label="Configuring your cluster to generate various audit logs" href="audit-logging/3.3.0/auditing_icp_serv.html"/>
+                    <topic label="Configuring your cluster to forward audit logs" href="audit-logging/3.3.0/forward_audit_logs.html"/>
+                    <topic label="Integrating your cluster with IBM QRadar" href="audit-logging/3.3.0/qradar.html">
+                        <topic label="IBM QRadar log source extension to parse your cluster audit logs" href="audit-logging/3.3.0/qradar_log_ext.html"/>
+                        <topic label="Configuring IBM QRadar to receive your cluster audit logs over TLS" href="audit-logging/3.3.0/config_qradar_tls.html"/>
+                        <topic label="Configuring your cluster to send audit logs over TLS to IBM QRadar" href="audit-logging/3.3.0/config_cluster_tls.html"/>
+                        <topic label="Configuring IBM QRadar rules" href="audit-logging/3.3.0/config_qradar_rule.html"/>
+                    </topic>
+                    <topic label="Integrating your cluster with Splunk" href="audit-logging/3.3.0/splunk_icp_integrate.html"/>
+                </topic>
+        </topic>
+        <topic label="IAM guide" href="iam/3.4.0/admin.html">
+                <topic label="Authentication onboarding and single sign-on" href="iam/3.4.0/auth_onboard.html">
+                    <topic label="Automated client registration method 1" href="iam/3.4.0/oauth_meth_1.html"/>
+                    <topic label="Automated client registration method 2" href="iam/3.4.0/oauth_meth_2.html"/>
+                </topic>
+                <topic label="Authorization onboarding, administration, and enforcement" href="iam/3.4.0/authorize_onboard.html">
+                    <topic label="Service policy onboarding for Helm" href="iam/3.4.0/auth_service_policy.html"/>
+                    <topic label="PDP AuthZ APIs" href="iam/3.4.0/auth_pdp.html"/>
+                </topic>
+		<topic label="Isolation on IBM Cloud Pak for Multicloud Manager" href="iam/3.4.0/iso_icp.html"/>
+                <topic label="Case studies" href="iam/3.4.0/case_study.html"/>
+                <topic label="IAM adoption guide" href="iam/3.4.0/iam_guide.html">
+		    <topic label="Role based access control" href="iam/3.4.0/assign_role.html"/>
+		    <topic label="Multiple LDAP domains" href="iam/3.4.0/iso_ldap.html"/>	
+                    <topic label="IAM for IBM Cloud Pak for Multicloud Manager platform users" href="iam/3.4.0/iam_platform.html">
+                        <topic label="Configuring single sign-on" href="iam/3.4.0/saml.html"/>
+                        <topic label="Configuring LDAP connection" href="iam/3.4.0/configure_ldap.html"/>
+                        <topic label="Changing LDAP cache settings" href="iam/3.4.0/change_ldap_cache.html"/>
+                        <topic label="Changing LDAP search settings" href="iam/3.4.0/change_ldap_search.html"/>
+                        <topic label="Changing Logjam configuration property" href="iam/3.4.0/change_logjam.html"/>
+                        <topic label="Managing teams" href="iam/3.4.0/teams.html">
+                            <topic label="Create teams" href="iam/3.4.0/create_team.html"/>
+                            <topic label="Add users to a team" href="iam/3.4.0/add_user.html"/>
+                            <topic label="Add groups to a team" href="iam/3.4.0/add_group.html"/>
+                            <topic label="Add RBAC to teams for service IDs" href="iam/3.4.0/ui_add_rbac.html"/>
+                            <topic label="Add resources to a team" href="iam/3.4.0/add_resource.html"/>
+                            <topic label="Add a Helm repository and namespace to a team" href="iam/3.4.0/add_repo_namespace.html"/>
+                            <topic label="Remove users from a team" href="iam/3.4.0/remove_user.html"/>
+                            <topic label="Remove groups from a team" href="iam/3.4.0/remove_group.html"/>
+                            <topic label="Remove resources from a team" href="iam/3.4.0/remove_resource.html"/>
+                            <topic label="Remove teams" href="iam/3.4.0/remove_team.html"/>
+                        </topic>
+                        <topic label="Managing namespaces" href="iam/3.4.0/projects.html">
+                            <topic label="Creating a namespace" href="iam/3.4.0/create_project.html"/>
+                            <topic label="Removing a namespace" href="iam/3.4.0/remove_project.html"/>
+                            <topic label="Namespace limits" href="iam/3.4.0/namespace_limits.html"/>
+                        </topic>			    
+                    </topic>
+                    <topic label="IAM for IBM Cloud Pak for Multicloud Manager workloads and applications" href="iam/3.4.0/iam_wl_app.html"/>
+                    <topic label="IAM for service to service communication" href="iam/3.4.0/iam_service_com.html"/>
+                    <topic label="IAM for IBM Cloud Pak for Multicloud Manager with OpenShift" href="iam/3.4.0/iam_openshift.html"/>
+                    <topic label="Troubleshooting IAM" href="iam/3.4.0/troubleshoot/ts_iam.html"/>
+                </topic>
+                <topic label="Cluster configurations" href="iam/3.4.0/cluster_config.html">
+                    <topic label="Managing Kubernetes Secret passwords with the IBM Cloud Pak CLI" href="iam/3.4.0/password_manager.html"/>
+                    <topic label="Changing the cluster administrator access credentials" href="iam/3.4.0/change_admin_passwd.html"/>
+                    <topic label="Customizing the cluster access URL" href="iam/3.4.0/custom_url.html"/>
+                    <topic label="Configuring access and identity token validity" href="iam/3.4.0/token_value.html"/>
+                    <topic label="Changing the security role mappings refresh time interval that is used during authorization" href="iam/3.4.0/change_auth_interval.html"/>
+                    <topic label="Changing LDAP search cache variable values" href="iam/3.4.0/ldap_cache_var.html"/>
+                </topic>
+                <topic label="Multitenancy" href="iam/3.4.0/multitenancy/multitenancy.html"/>
+                <topic label="Multitenancy account quota enforcement" href="iam/3.4.0/multitenancy/multitenancy_quota.html"/>
+    	</topic>
+        <topic label="Key Management Service adoption guide" href="mcm/mcm_user_management/kms_guide.html">
+            <topic label="Configuring Key Management Service" href="mcm/mcm_user_management/kms_server.html">
+		<topic label="Setting up an instance" href="mcm/mcm_user_management/kms_guide_su_instance.html"/>
+                <topic label="Adding root keys to instances" href="mcm/mcm_user_management/kms_guide_add_keys.html"/>                
+            </topic>
+			<topic label="Encrypting Kubernetes secrets with Key Management Service plug-in" href="mcm/mcm_user_management/kms_plugin.html"/>	
+			<topic label="Upgrading Key Management Service Helm charts" href="mcm/installing/upgrade_kms.html"/>
+        </topic>
+        <topic label="Using a notary service for image signing" href="mcm/compliance/notary_server.html"/>
+		<topic label="Image signing support for image policies" href="mcm/compliance/image_policy_signing.html"/>
+    </topic>
+    <topic label="Administering" href="admin/intro.html">
+        	<topic label="Services and components" href="admin/components.html"/>
+		<topic label="Upgrading OpenShift Container Platform" href="admin/upgrade_ocp.html"/>
+		<topic label="Enabling and disabling services" href="install/disable_and_enable_services.html"/>
+		<topic label="IBM Cloud Pak for Multicloud Manager System Healthcheck service" href="system-healthcheck-service/3.3.0/system_hc.html"/>
+		<topic label="IBM Cloud Pak for Multicloud Manager cluster monitoring" href="monitoring/1.7.0/monitoring_service.html">
+			<topic label="Adding more Prometheus instances to manage cluster monitoring" href="admin/add_prom_mcm.html"/>
+		</topic>
+		<topic label="Metering service" href="admin/metering_service_mcm.html"/>
+                <topic label="Logging service" href="logging/3.0.0/logging_elk.html">
+                    <topic label="Overview" href="logging/3.0.0/log_overview.html"/>
+                    <topic label="Security" href="logging/3.0.0/log_security.html"/>
+                    <topic label="Configuration" href="logging/3.0.0/log_config.html">
+                        <topic label="Installing additional logging instances" href="logging/3.0.0/add_log_instanc.html"/>
+                        <topic label="Scaling out logging services after IBM Cloud Pak for Multicloud Manager installation" href="logging/3.0.0/scale_log_nodes.html"/>
+                        <topic label="Modifying the data retention policy for logging services" href="logging/3.0.0/log_change_retention.html"/>
+                        <topic label="Manually removing log indices" href="logging/3.0.0/log_man_remove_indices.html"/>
+                        <topic label="Enabling security for logging services" href="logging/3.0.0/enable_security_logging.html"/>
+                        <topic label="Managing resource allocation for logging services" href="logging/3.0.0/log_resource_allocation.html"/>
+                        <topic label="Updating logging service data collection filters" href="logging/3.0.0/log_collect_filters.html"/>
+                        <topic label="Customizing Filebeat registry locations" href="logging/3.0.0/log_filebeat_registry.html"/>
+                    </topic>
+                    <topic label="Hardware requirements and recommendations" href="logging/3.0.0/log_hw_reqs.html">
+                        <topic label="Logging and metrics capacity planning" href="logging/3.0.0/capacity_planning.html"/>
+                    </topic>
+                </topic>
+		<topic label="Managing charts and apps" href="catalog/3.4.0/app_center.html">
+			<topic label="Deploying Helm charts in the catalog" href="catalog/3.4.0/create_release.html"/>
+			<topic label="Deploying Cloud Paks" href="catalog/3.4.0/sol_pak_deploy.html"/>
+			<topic label="Deploying Helm charts that require elevated privileges in a non-default namespace" href="helm-repo/3.4.0/nd_helm.html"/>
+			<topic label="Extending Helm chart parameters with metadata" href="helm-repo/3.4.0/values_metadata.html"/>
+			<topic label="Working with charts" href="helm-repo/3.4.0/manage_packages.html">
+				<topic label="Adding the internal Helm repository to Helm CLI" href="helm-cli/3.4.0/add_int_helm_repo_to_cli.html"/>
+				<topic label="Adding custom applications" href="catalog/3.4.0/add_package.html">
+					<topic label="Package a Helm chart" href="catalog/3.4.0/add_package.html#package_chart"/>
+					<topic label="Add the chart to an external repository" href="catalog/3.4.0/add_package.html#add_external"/>
+					<topic label="Add the chart to the internal repository" href="catalog/3.4.0/add_package.html#add_internal"/>
+				</topic>
+				<topic label="Adding featured applications to clusters in an air gap environment" href="catalog/3.4.0/add_package_offline.html"/>
+			</topic>
+		</topic>
+	</topic>
+	<topic label="Cluster management" href="mcm/manage_cluster/intro.html">
+        <topic label="Supported Cluster API and managed cloud providers" href="mcm/manage_cluster/cloud_providers.html"/>
+        <topic label="Creating a cluster" href="mcm/manage_cluster/create_gui.html">
+            <topic label="Creating an IBM Kubernetes Service cluster" href="mcm/manage_cluster/create_iks.html"/>
+            <topic label="Creating a Google Kubernetes Engine cluster" href="mcm/manage_cluster/create_gke.html"/>
+            <topic label="Creating an Azure Kubernetes Service cluster" href="mcm/manage_cluster/create_aks.html"/>
+            <topic label="Creating an Amazon Elastic Kubernetes Service cluster" href="mcm/manage_cluster/create_eks.html"/>
+            <topic label="Creating an OpenShift on Amazon Web Services cluster" href="mcm/manage_cluster/create_ocp_aws.html"/>
+        </topic>
+        <topic label="Scaling your clusters" href="mcm/manage_cluster/scale_mcm.html"/>
+        <topic label="Importing a target managed cluster" href="mcm/installing/install_k8s_cloud.html">
+            <topic label="Importing a cluster with the IBM Multicloud Manager management console" href="mcm/manage_cluster/import_gui.html"/>
+            <topic label="Importing a cluster with the CLI" href="mcm/manage_cluster/import_cli.html"/>
+            <topic label="Importing a managed cluster in an air gapped environment" href="mcm/installing/offline_endpoint.html"/>
+            <topic label="Modifying the multicluster endpoint settings for your cluster" href="mcm/manage_cluster/modify_mc_end.html"/>
+        </topic>
+        <topic label="Upgrading multicluster endpoint" href="mcm/manage_cluster/upgrade_mc_endpoint.html"/>
+    </topic>
+    <topic label="Service discovery" href="mcm/services/working_serv_intro.html">
+        <topic label="IBM Multicloud Manager service discovery overview" href="mcm/services/serv_overview.html"/>
+        <topic label="Preparing your IBM Multicloud Manager to discover services" href="mcm/services/mcm_serv_prep.html"/>
+        <topic label="Enabling a Kubernetes service for discovery" href="mcm/services/serv_kube.html"/>
+        <topic label="Enabling a Kubernetes ingress for discovery" href="mcm/services/serv_ingress.html"/>
+        <topic label="Enabling an Istio service for discovery" href="mcm/services/serv_istio.html"/>
+    </topic>
+    <topic label="Application management" href="mcm/applications/overview.html">
+        <topic label="Application lifecycle" href="mcm/applications/app_lifecycle.html"/>
+        <topic label="Application resources" href="mcm/applications/app_resources.html">
+            <topic label="Managing application resources" href="mcm/applications/managing_apps.html"/>
+            <topic label="Managing deployables" href="mcm/applications/managing_deployables.html"/>
+            <topic label="Managing channels" href="mcm/applications/managing_channels.html"/>
+            <topic label="Managing subscriptions" href="mcm/applications/managing_subscriptions.html"/>
+            <topic label="Managing placement rules" href="mcm/applications/managing_placement_rules.html"/>
+            <topic label="Managing secrets" href="mcm/applications/managing_secrets.html"/>
+        </topic>
+        <topic label="Deploying an application resource" href="mcm/applications/deployment_app.html"/>
+            <topic label="Deploying an application resource with a rolling update" href="mcm/applications/deployment_rollout.html"/>
+        <topic label="Managing applications with the console" href="mcm/applications/managing_apps_console.html"/>
+        <topic label="Migrating subscriptions" href="mcm/applications/migrate_subscriptions.html"/>
+    </topic>
+</toc>

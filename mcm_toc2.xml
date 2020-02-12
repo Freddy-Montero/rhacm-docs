@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toc label="SSFC4F_1.2.0_stage">
+    <topic label="CLI tools guide" href="cli/cli_guide_mcm.html">
+        <topic label="Managing your cluster with the IBM Cloud Pak CLI (cloudctl)" href="cloudctl/icp_cli.html">
+            <topic label="Installing cloudctl" href="cloudctl/install_cli.html"/>
+            <topic label="Catalog commands (catalog)" href="cloudctl/cli_catalog_commands.html"/>
+            <topic label="General commands (cloudctl)" href="cloudctl/cli_commands.html"/>
+            <topic label="Cluster management commands (cm)" href="cloudctl/cli_cm_commands.html"/>
+            <topic label="Service API key management commands (iam)" href="cloudctl/cli_iam_commands.html"/>
+            <topic label="Metering commands (metering)" href="cloudctl/cli_metering_commands.html"/>
+            <topic label="Password management commands (pm)" href="cloudctl/cli_pm_commands.html"/>
+        </topic>
+        <topic label="Using the IBM Cloud Pak CLI multicluster plug-in (mc)" href="cli/cp_cli_mcm.html">
+            <topic label="Installing the IBM Cloud Pak CLI multicluster (mc) plugin" href="cli/installing_mc_plugin.html"/>
+            <topic label="Multicluster commands (mc)" href="cli/cli_mc_commands.html"/>
+        </topic>
+        <topic label="Installing the Kubernetes CLI (kubectl)" href="kubectl/install_kubectl.html"/>
+        <topic label="Installing the Helm CLI (helm)" href="helm-cli/3.4.0/create_helm_cli.html"/>
+        <topic label="Installing the Istio CLI (istioctl)" href="istio-cli/install_istioctl.html"/>
+        <topic label="Installing the Calico CLI (calicoctl)" href="calico-cli/calicoctl.html"/>
+    </topic>
+    <topic label="Console guide" href="mcm/getting_started/console_intro.html">
+        <topic label="Supported browsers" href="common-web-ui/1.0.0/supported_browsers.html"/>
+        <topic label="Accessing your cluster by using the console" href="mcm/installing/url.html"/>
+        <topic label="Console components" href="mcm/getting_started/console.html"/>
+        <topic label="Managing your cluster with the Visual Web Terminal" href="mcm-kui/3.4.0/vwt.html">
+		    <topic label="Searching with the Visual Web Terminal" href="console/vwt_search.html"/>
+		</topic>
+        <topic label="Configuring your logo" href="common-web-ui/1.0.0/logo.html"/>
+        <topic label="Managing cluster labels" href="console/cluster_label.html"/>
+    </topic>
+    <topic label="Technology preview" href="mcm/tech_previews/tech_overview_mcm.html">
+        <topic label="Configuring high availability for your IBM Cloud Pak for Multicloud Management clusters" href="mcm/installing/mcm_ha.html"/>
+        <topic label="Multitenancy account quota enforcement" href="iam/3.4.0/multitenancy/multitenancy_quota.html"/>    
+        <topic label="Importing an Alibaba Cloud cluster" href="mcm/manage_cluster/alicloud.html"/>
+        <topic label="Keep Your Own Key (KYOK)" href="mcm/mcm_user_management/kyok.html">
+            <topic label="Secure token service" href="mcm/mcm_user_management/sts_overview.html">
+                <topic label="Configure secure token service" href="mcm/mcm_user_management/sts_config.html"/>
+                <topic label="Enable the key management service to use secure token service" href="mcm/mcm_user_management/sts_request.html"/>
+                <topic label="Troubleshooting the secure token service" href="mcm/mcm_user_management/ts_sts.html"/>
+            </topic>
+            <topic label="Multiple zones" href="mcm/installing/multi_zone.html">
+                <topic label="Configuring multiple zones in IBM Cloud Pak for Multicloud Management clusters" href="mcm/installing/multizone_config.html"/>                
+            </topic>
+        </topic>
+    </topic>
+    <topic label="APIs" href="apis/cfc_api.html">
+        <topic label="Preparing to run API commands" href="iam/3.4.0/apis/access_api.html"/>
+        <topic label="Component APIs" href="apis/component_apis.html">
+            <topic label="Helm REST APIs" href="helm-api/3.4.0/helm_apis.html">
+                <topic label="REST APIs for Helm API version 2" href="helm-api/3.4.0/helm_swagger_v2.json"/>
+             </topic>
+            <topic label="Kubernetes API" href="iam/3.4.0/apis/k8s_api.html"/>
+            <topic label="Docker Registry V2 API" href="apis/docker_registry_api.html"/>
+            <topic label="Prometheus API" href="apis/prometheus.html"/>
+        </topic>
+        <topic label="IBM Cloud Pak for Multicloud Management APIs" href="apis/mcm_apis.html">
+            <topic label="Applications" href="apis/mcm/applications.json"/>
+            <topic label="Channels" href="apis/mcm/channels.json"/>
+            <topic label="Deployables (app.ibm.com)" href="apis/mcm/deployables_app.json"/>
+            <topic label="Placement bindings" href="apis/mcm/placementBindings.json"/>
+            <topic label="Placement rules" href="apis/mcm/placementRules.json"/>
+            <topic label="Policies" href="apis/mcm/policies.json"/>
+            <topic label="Subscriptions" href="apis/mcm/subscriptions.json"/>
+        </topic>
+        <topic label="IAM APIs" href="iam/3.4.0/apis/apis_iam.html">            
+            <topic label="User management and authentication APIs" href="iam/3.4.0/apis/auth_manage_api.html">
+                <topic label="Account management" href="iam/3.4.0/apis/acct_mgmt.html">
+                    <topic label="Get information about all accounts" href="iam/3.4.0/apis/acct_mgmt.html#get1"/>
+                    <topic label="Get information about an account" href="iam/3.4.0/apis/acct_mgmt.html#get2"/>
+                </topic>
+                <topic label="Directory management" href="iam/3.4.0/apis/directory_mgmt.html">
+                    <topic label="Connect to an LDAP directory" href="iam/3.4.0/apis/directory_mgmt.html#connect"/>
+                    <topic label="Get information about an LDAP directory" href="iam/3.4.0/apis/directory_mgmt.html#get-ldap"/>
+                    <topic label="Update an LDAP directory" href="iam/3.4.0/apis/directory_mgmt.html#update-ldap"/>
+                    <topic label="List LDAP connections" href="iam/3.4.0/apis/directory_mgmt.html#list"/>
+                    <topic label="Delete an LDAP directory" href="iam/3.4.0/apis/directory_mgmt.html#delete"/>
+                    <topic label="Delete LDAP directory by ID" href="iam/3.4.0/apis/directory_mgmt.html#delete-one"/>
+                    <topic label="Search for user groups in your LDAP directory" href="iam/3.4.0/apis/directory_mgmt.html#search"/>
+                    <topic label="Search for users in your LDAP directory" href="iam/3.4.0/apis/directory_mgmt.html#search1"/>
+                    <topic label="Import user groups from your LDAP directory" href="iam/3.4.0/apis/directory_mgmt.html#import"/>
+                    <topic label="Import users from your LDAP directory" href="iam/3.4.0/apis/directory_mgmt.html#import1"/>
+                </topic>
+                <topic label="User group management" href="iam/3.4.0/apis/usr_grp_mgmt.html">
+                    <topic label="Get all user groups" href="iam/3.4.0/apis/usr_grp_mgmt.html#get"/>
+                    <topic label="Delete a user group" href="iam/3.4.0/apis/usr_grp_mgmt.html#delete"/>
+                </topic>
+                <topic label="User management" href="iam/3.4.0/apis/usr_mgmt.html">
+                    <topic label="Get information about all users" href="iam/3.4.0/apis/usr_mgmt.html#getall"/>
+                    <topic label="Get information about all members of the team to which a user belongs" href="iam/3.4.0/apis/usr_mgmt.html#getteamusers"/>
+                    <topic label="Get the teams to which a user is assigned" href="iam/3.4.0/apis/usr_mgmt.html#getteam"/>
+                    <topic label="Get the number of teams to which a user is assigned" href="iam/3.4.0/apis/usr_mgmt.html#getteamnum"/>
+                    <topic label="Get the directories to which a user has access" href="iam/3.4.0/apis/usr_mgmt.html#getdiraccess"/>
+                    <topic label="Get the highest role that is assigned to a user across teams" href="iam/3.4.0/apis/usr_mgmt.html#getrole"/>
+                    <topic label="Get the highest role that is assigned to a user and CRN across teams" href="iam/3.4.0/apis/usr_mgmt.html#getrolecrn"/>
+                    <topic label="Get the team resources that are assigned to a user" href="iam/3.4.0/apis/usr_mgmt.html#getteamres"/>
+                    <topic label="Get the team resources that are assigned to a user by resource type" href="iam/3.4.0/apis/usr_mgmt.html#getteamresource"/>
+                    <topic label="Get the team resources that are assigned to a user by resource type and action type" href="iam/3.4.0/apis/usr_mgmt.html#getteamaction"/>
+                    <topic label="Get team role mappings" href="iam/3.4.0/apis/usr_mgmt.html#getrolemap"/>
+                    <topic label="Delete a user" href="iam/3.4.0/apis/usr_mgmt.html#delete"/>
+                    <topic label="Get a user's account information" href="iam/3.4.0/apis/usr_mgmt.html#acct"/>
+                </topic>
+                <topic label="Team management" href="iam/3.4.0/apis/team_mgmt.html">
+                    <topic label="Create a team" href="iam/3.4.0/apis/team_mgmt.html#create"/>
+                    <topic label="Assign users and user groups to a team" href="iam/3.4.0/apis/team_mgmt.html#team"/>
+                    <topic label="Assign resources to a team" href="iam/3.4.0/apis/team_mgmt.html#resource">
+                        <topic label="Using wildcard characters in the CRN attribute resource value" href="iam/3.4.0/apis/team_mgmt.html#char"/>
+                    </topic>
+                    <topic label="Add Helm chart resources to a team" href="iam/3.4.0/apis/team_mgmt.html#helm_chart"/>
+                    <topic label="Get information about a team" href="iam/3.4.0/apis/team_mgmt.html#get"/>
+                    <topic label="Get information about all teams" href="iam/3.4.0/apis/team_mgmt.html#getall"/>
+                    <topic label="Get resources that are assigned to a team" href="iam/3.4.0/apis/team_mgmt.html#getresource"/>
+                    <topic label="Update a team" href="iam/3.4.0/apis/team_mgmt.html#update"/>
+                    <topic label="Delete a resource from a team" href="iam/3.4.0/apis/team_mgmt.html#delete_resource"/>
+                    <topic label="Delete a team" href="iam/3.4.0/apis/team_mgmt.html#delete"/>
+                </topic>
+            </topic>
+            <topic label="Service management APIs" href="iam/3.4.0/apis/service_apis.html">
+                <topic label="Service ID management APIs" href="iam/3.4.0/apis/service_id_mgmt.html">
+                    <topic label="Get information about all service IDs" href="iam/3.4.0/apis/service_id_mgmt.html#get1"/>
+                    <topic label="Get information about all service IDs that are bound to CRNs" href="iam/3.4.0/apis/service_id_mgmt.html#get2"/>
+                    <topic label="Create a service ID" href="iam/3.4.0/apis/service_id_mgmt.html#create1"/>
+                    <topic label="Get information about a service ID" href="iam/3.4.0/apis/service_id_mgmt.html#get3"/>
+                    <topic label="Delete a service ID and the associated API key" href="iam/3.4.0/apis/service_id_mgmt.html#del1"/>
+                    <topic label="Update a service ID" href="iam/3.4.0/apis/service_id_mgmt.html#update1"/>
+                    <topic label="Binding a service ID to a team" href="iam/3.4.0/apis/bind_teams.html"/>
+                </topic>
+                <topic label="API key management APIs" href="iam/3.4.0/apis/api_keys.html">
+                    <topic label="Create an API key" href="iam/3.4.0/apis/api_keys.html#create1"/>
+                    <topic label="Get the API key that is bound to a CRN" href="iam/3.4.0/apis/api_keys.html#get1"/>
+                    <topic label="Get information about an API key" href="iam/3.4.0/apis/api_keys.html#get2"/>
+                    <topic label="Update an API key" href="iam/3.4.0/apis/api_keys.html#update1"/>
+                    <topic label="Delete an API key" href="iam/3.4.0/apis/api_keys.html#del1"/>
+                    <topic label="Generate an OpenID Connect (OIDC) token" href="iam/3.4.0/apis/api_keys.html#get3"/>
+                    <topic label="Introspect an OIDC token" href="iam/3.4.0/apis/api_keys.html#introspect"/>
+                </topic>
+                <topic label="Service policy management APIs" href="iam/3.4.0/apis/service_policy.html">
+                    <topic label="Get information about all system-defined roles" href="iam/3.4.0/apis/service_policy.html#get1"/>
+                    <topic label="Get information about all registered services" href="iam/3.4.0/apis/service_policy.html#get2"/>
+                    <topic label="Get information about policies that are assigned to a service ID and scope" href="iam/3.4.0/apis/service_policy.html#get3"/>
+                    <topic label="Create an access policy for a service ID" href="iam/3.4.0/apis/service_policy.html#create1">
+                        <topic label="Using wildcard characters in the CRN attribute resource value" href="iam/3.4.0/apis/service_policy.html#char"/>
+                    </topic>
+                    <topic label="Get information about the access policy that is assigned to a service" href="iam/3.4.0/apis/service_policy.html#get4"/>
+                    <topic label="Update an access policy that is assigned to a service" href="iam/3.4.0/apis/service_policy.html#update1"/>
+                    <topic label="Delete an access policy that is assigned to a service" href="iam/3.4.0/apis/service_policy.html#del1"/>
+                </topic>
+            </topic>
+            <topic label="Service onboarding and RBAC APIs" href="iam/3.4.0/apis/service_onboard.html"/>
+            <topic label="Platform user API keys" href="iam/3.4.0/apis/platformusr_api_keys.html"/>
+            <topic label="Single sign-on APIs" href="iam/3.4.0/apis/sso_apis.html">
+                <topic label="Enable SAML" href="iam/3.4.0/apis/sso_apis.html#enable"/>
+                <topic label="Export metadata" href="iam/3.4.0/apis/sso_apis.html#export"/>
+                <topic label="Import metadata" href="iam/3.4.0/apis/sso_apis.html#import"/>
+                <topic label="Verify SSO configuration status" href="iam/3.4.0/apis/sso_apis.html#verify"/>
+                <topic label="Disable SAML" href="iam/3.4.0/apis/sso_apis.html#disable"/>
+            </topic>
+            <topic label="Service health and version check APIs" href="iam/3.4.0/apis/iam_health_check_apis.html">
+                <topic label="Identity manager service" href="iam/3.4.0/apis/iam_health_check_apis.html#id-mgr">
+                    <topic label="Swagger JSON" href="iam/3.4.0/apis/iam_health_check_apis.html#id-mgr-sign"/>
+                    <topic label="Version check" href="iam/3.4.0/apis/iam_health_check_apis.html#id-mgr-ver"/>
+                </topic>
+                <topic label="IAM policy administration service" href="iam/3.4.0/apis/iam_health_check_apis.html#pol-admin">
+                    <topic label="Swagger JSON" href="iam/3.4.0/apis/iam_health_check_apis.html#pol-admin-sign"/>
+                    <topic label="Health check and readiness probe" href="iam/3.4.0/apis/iam_health_check_apis.html#pol-admin-health"/>
+                    <topic label="Version check" href="iam/3.4.0/apis/iam_health_check_apis.html#pol-admin-ver"/>
+                </topic>
+                <topic label="IAM token service" href="iam/3.4.0/apis/iam_health_check_apis.html#iam-token">
+                     <topic label="Version check" href="iam/3.4.0/apis/iam_health_check_apis.html#iam-token-ver"/>
+                </topic>
+            </topic>
+            <topic label="Multitenancy APIs" href="iam/3.4.0/apis/mt_apis.html">
+                <topic label="Account management APIs" href="iam/3.4.0/apis/mt_apis.html#acct_mgmt">
+                    <topic label="Get information about all accounts" href="iam/3.4.0/apis/mt_apis.html#get_all"/>
+                    <topic label="Create an account" href="iam/3.4.0/apis/mt_apis.html#create_account"/>
+                    <topic label="Get information about an account" href="iam/3.4.0/apis/mt_apis.html#get2"/>
+                    <topic label="Edit an account" href="iam/3.4.0/apis/mt_apis.html#edit_account"/>
+                    <topic label="Delete an account" href="iam/3.4.0/apis/mt_apis.html#delete_account"/>
+                    <topic label="Get identity providers that are connected to an account" href="iam/3.4.0/apis/mt_apis.html#get3"/>
+                    <topic label="Get information about an account administrator" href="iam/3.4.0/apis/mt_apis.html#get4"/>
+                    <topic label="Get members of an account" href="iam/3.4.0/apis/mt_apis.html#get5"/>
+                    <topic label="Get information about users by using a search string" href="iam/3.4.0/apis/mt_apis.html#get6"/>
+                    <topic label="Add users to an account" href="iam/3.4.0/apis/mt_apis.html#add_users"/>
+                    <topic label="Get information about a user by using the User ID" href="iam/3.4.0/apis/mt_apis.html#get7"/>
+                    <topic label="Update user information" href="iam/3.4.0/apis/mt_apis.html#update_user"/>
+                    <topic label="Delete a user from an account" href="iam/3.4.0/apis/mt_apis.html#delete_user"/>
+                </topic>
+                <topic label="User management APIs" href="iam/3.4.0/apis/mt_apis.html#user_mgmt">
+                    <topic label="Assign an account to a user" href="iam/3.4.0/apis/mt_apis.html#assign_acct"/>
+                    <topic label="Get accounts that are assigned to a user" href="iam/3.4.0/apis/mt_apis.html#get8"/>
+                </topic>
+                <topic label="LDAP management APIs" href="iam/3.4.0/apis/mt_apis.html#ldap_mgmt">
+                    <topic label="Get LDAP connection information by using a query parameter" href="iam/3.4.0/apis/mt_apis.html#get9"/>
+                    <topic label="Get LDAP connection information by using the LDAP ID" href="iam/3.4.0/apis/mt_apis.html#get10"/>
+                </topic>
+            </topic>
+        </topic>
+        <topic label="Image management API" href="apis/image_management.html">
+            <topic label="Delete repositories" href="apis/cfc_api_files/delete_repo.html"/>
+            <topic label="Get JWT tokens" href="apis/cfc_api_files/get_tokens.html"/>
+            <topic label="List endpoints" href="apis/cfc_api_files/list_endpoints.html"/>
+            <topic label="List repositories" href="apis/cfc_api_files/list_repo.html"/>
+            <topic label="List specified repository" href="apis/cfc_api_files/list_spec_repo.html"/>
+            <topic label="Update repository metadata" href="apis/cfc_api_files/update_meta.html"/>
+        </topic>
+        <topic label="Vulnerability Advisor API" href="apis/va_api.html">
+            <topic label="Mutation Advisor Advanced (MA++) APIs" href="apis/mapp_api.json"/>
+        </topic>
+        <topic label="Key Management Service APIs" href="apis/kms_apis.html">
+            <topic label="Generate a key" href="apis/kms_apis.html#gen_key"/>
+            <topic label="Import a key" href="apis/kms_apis.html#import_key"/>
+            <topic label="Retrieve list of keys" href="apis/kms_apis.html#get_key"/>
+            <topic label="Retrieve number of keys" href="apis/kms_apis.html#get_num"/>
+            <topic label="Retrieve a key by ID" href="apis/kms_apis.html#key_ID"/>
+            <topic label="Wrap a key" href="apis/kms_apis.html#wrap_key"/>
+            <topic label="Unwrap a key" href="apis/kms_apis.html#unwrap_key"/>
+            <topic label="Rotate a key" href="apis/kms_apis.html#rotate_key"/>
+            <topic label="Delete a key by ID" href="apis/kms_apis.html#key_del"/>
+        </topic>        
+        <topic label="Security findings API" href="apis/sa_api.json"/>
+        <topic label="IBM Cloud Pak for Multicloud Management system healthcheck service API" href="apis/system_hc_api.json"/>
+    </topic>
+    <topic label="Troubleshooting" href="mcm/troubleshoot/mcm_troubleshoot.html">
+        <topic label="Troubleshooting the console" href="mcm/troubleshoot/manage_console_trouble.html">
+            <topic label="Connection fails when you start the Visual Web Terminal" href="mcm-kui/3.4.0/troubleshoot/ts_login_vwt.html"/>
+            <topic label="Cannot edit from Topology page: replica number and cluster selector" href="mcm/troubleshoot/topology_ui_update.html"/>
+        </topic>
+        <topic label="Troubleshooting install and upgrade" href="mcm/troubleshoot/install_upgrade_trouble.html">
+            <topic label="Installation fails after uninstallation" href="installer/3.2.2/troubleshoot/common_web_ui.html"/>
+        </topic>
+        <topic label="Troubleshooting cluster management" href="mcm/troubleshoot/cluster_manage_trouble.html">
+            <topic label="Manually deleting a namespace fails when the cluster resources still exist" href="mcm/troubleshoot/delete_provider.html"/>
+            <topic label="Managed cluster cannot access hub cluster Kubernetes API server" href="mcm/troubleshoot/mcm_kube_api.html"/>
+            <topic label="Cluster import fails when image registry is not whitelisted" href="mcm/troubleshoot/image_policy_import.html"/>
+            <topic label="Delete cluster to remove an imported cluster does not work" href="mcm/troubleshoot/delete_import.html"/>
+            <topic label="Multicluster-endpoint fails to initialize with user-installed Tiller in the `kube-system` namespace" href="mcm/troubleshoot/endpnt_tiller.html"/>
+            <topic label="Creating an EKS cluster fails due to error: AlreadyExistsException" href="mcm/troubleshoot/eks_exception_fail.html"/>
+            <topic label="Import fails when a cluster namespace exists or apiserver has an error" href="mcm/troubleshoot/import_fails_namespace.html"/>
+        </topic>
+        <topic label="Troubleshooting application management" href="mcm/troubleshoot/app_manage_trouble.html">
+            <topic label="Pods are not deployed on managed clusters for created application resources" href="mcm/troubleshoot/app_manage_podmissing.html"/>
+        </topic>
+        <topic label="Troubleshooting IAM issues" href="iam/3.4.0/troubleshoot/ts_iam.html">
+            <topic label="Login" href="iam/3.4.0/troubleshoot/login.html">
+                <topic label="Cluster administrator cannot log in to the console" href="iam/3.4.0/troubleshoot/ldap_superadmin.html"/>
+                <topic label="Cannot authenticate to kubectl using the CLI on Windows" href="iam/3.4.0/troubleshoot/windows_cli.html"/>
+                <topic label="Docker login results in unencrypted password warning" href="iam/3.4.0/troubleshoot/login_docker_warning.html"/>
+            </topic>
+            <topic label="LDAP" href="iam/3.4.0/troubleshoot/ldap.html">
+                <topic label="Enable debugging for user authentication issues" href="iam/3.4.0/troubleshoot/ldap_log_level.html"/>
+                <topic label="Troubleshooting LDAP configuration" href="iam/3.4.0/troubleshoot/ts_ldap.html"/>
+                <topic label="Configuring LDAP over SSL" href="iam/3.4.0/troubleshoot/ldaps_manual.html"/>
+                <topic label="Troubleshooting users and user groups search issues" href="iam/3.4.0/troubleshoot/ts_search_users_groups.html"/>
+            </topic>
+            <topic label="Pod issues" href="iam/3.4.0/troubleshoot/pod_issues.html">
+                <topic label="auth-idp pod restarts multiple times" href="iam/3.4.0/troubleshoot/resource_limit.html"/>
+                <topic label="Pods are not scheduled" href="iam/3.4.0/troubleshoot/pods_no_schedule.html"/>
+                <topic label="platform-auth container fails to start" href="iam/3.4.0/troubleshoot/saml_auth_pod.html"/>
+            </topic>
+        </topic>
+        <topic label="Troubleshooting Key Management Service" href="mcm/troubleshoot/ts_kms.html">
+            <topic label="ContainerCreating status on key-management-hsm-middleware pod" href="mcm/troubleshoot/ts_kms.html#31986b"/>	
+            <topic label="Secret hsm-secret not found error" href="mcm/troubleshoot/ts_kms.html#nosecret"/>
+            <topic label="UPGRADE FAILED error" href="mcm/troubleshoot/ts_kms.html#upgrade"/>
+            <topic label="Key rotation does not work - shows 501 Not Implemented Error" href="mcm/troubleshoot/ts_kms.html#no-implement"/>
+	    <topic label="Key operations do not work - show 400 Bad Request Error" href="mcm/troubleshoot/ts_kms.html#key_400"/>
+            <topic label="Key operations do not work - show 500 Internal Server Error" href="mcm/troubleshoot/ts_kms.html#internal-server"/>
+	    <topic label="Key operations do not work - show 503 Unavailable Experiencing delays error" href="mcm/troubleshoot/ts_kms.html#key_503"/>	
+            <topic label="HSM connection does not work on all management nodes" href="mcm/troubleshoot/ts_kms.html#hsm"/>
+            <topic label="Cannot import root key" href="mcm/troubleshoot/ts_kms.html#root"/>
+            <topic label="key-management-persistence log reports errors after Key Management Service configuration" href="mcm/troubleshoot/ts_kms.html#log"/>
+	    <topic label="Kubernetes Ingress Controller fake certificate is returned by the NGINX ingress controller" href="mcm/troubleshoot/ts_kms.html#fake_cert"/>
+    	    <topic label="key-management-pep pod not running" href="mcm/troubleshoot/ts_kms.html#kmp_pod"/>	
+        </topic>
+        <topic label="Troubleshooting Key Management Service plug-in" href="mcm/troubleshoot/ts_kms_plugin.html">
+            <topic label="Failed to create a secret: API key could not be found" href="mcm/troubleshoot/ts_kms_plugin.html#api"/>
+            <topic label="Failed to create a secret: the connection is unavailable" href="mcm/troubleshoot/ts_kms_plugin.html#connection"/>
+            <topic label="Failed to create a secret: Request requires valid Instance Header containing a valid UUID" href="mcm/troubleshoot/ts_kms_plugin.html#uuid"/>
+            <topic label="Failed to create a secret: Client.Timeout exceeded while awaiting headers" href="mcm/troubleshoot/ts_kms_plugin.html#timeout"/>
+	</topic>
+        <topic label="Troubleshoot audit logging" href="audit-logging/3.3.0/troubleshoot/audit-ts.html">
+	    <topic label="Volume mount error during cluster installation" href="audit-logging/3.3.0/troubleshoot/vol_mt.html"/>	
+            <topic label="Troubleshooting IBM QRadar integration" href="audit-logging/3.3.0/troubleshoot/qradar_integrate.html"/>
+            <topic label="Common audit logging upgrade errors" href="audit-logging/3.3.0/troubleshoot/audit_upgrade.html">
+                <topic label="Invalid request : rpc error" href="audit-logging/3.3.0/troubleshoot/rpc.html"/>
+                <topic label="Configmap error" href="audit-logging/3.3.0/troubleshoot/cm.html"/>
+                <topic label="Cannot pull image" href="audit-logging/3.3.0/troubleshoot/img.html"/>
+                <topic label="Failed to schedule Fluentd pods" href="audit-logging/3.3.0/troubleshoot/ds.html"/>
+                <topic label="Cert-manager webhook error" href="audit-logging/3.3.0/troubleshoot/hook.html"/>
+            </topic>
+        </topic>	    
+        <topic label="Events, logs, and error codes" href="mcm/troubleshoot/events_logs.html">
+            <topic label="Error codes" href="mcm/troubleshoot/error_codes.html"/>
+        </topic>
+	</topic>
+    <topic label="Support" href="mcm/troubleshoot/support.html">
+        <topic label="Support types" href="mcm/troubleshoot/support_types.html"/>
+        <topic label="Open source support" href="mcm/troubleshoot/opensource_support.html"/>
+        <topic label="MustGather to collect logs and obtain support" href="mcm/troubleshoot/must_gather.html"/>
+    </topic>
+</toc>

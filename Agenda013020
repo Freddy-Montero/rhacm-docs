@@ -1,0 +1,29 @@
+Issues created for epics. Waiting to find out what happens at commitment pitch. Need more information for the existing ones
+Brandi moved files and created issue
+Mikela looking into ASCIIDoc
+
+
+Updates from Red Hat meeting with Dawn, Ali, and Juliana:
+Culture is similar, but has a certain factor that no one can seem to explain. It is more open to idea expression. They were happy with how things go.
+  They are open to our way of working, at least at the beginning. They are understanding and supportive of the changes, and don't want to force us into a tailspin with too much change.
+Red Hat has a centralized ID team.
+  When geographically possible, they sit near the developers. Space is very limited, so sometimes the best you can get is on a different floor of the same location.
+  Under the OpenShift line of business
+  Similar to squad structure. About 28 squads, but not all need documentation. Not 1 ID to 1 squad. 
+  Content strategist works closely with customers and has the overview of the documentation branding.
+  Writers work more with internal teams, though I want to know if we can have some access to customer interaction.
+  Builds:
+     They refresh daily using Pantheon. 
+     There is a build focal, and builds are automated. 
+     OpenShift builds in two different places, with single-sourcing.
+  Translation: 
+     JA mostly, but sometimes KO and zh_CN. They have someone who handles this. 
+  Writing:
+     AsciiDoc is what they use for source
+     Files in public Git repo
+     Jira and Bugzilla for issues
+     Topic-based
+     Conditional processing, I think
+  
+  
+  

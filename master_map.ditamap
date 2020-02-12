@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd" [
+<!ENTITY ProductName "IBM Cloud Pak for Multicloud Management">
+<!ENTITY ProductVersion "1.2.0">
+]>
+<?Pub UDT _bookmark _target?>
+<?Pub Sty _display FontColor="red"?>
+<?Pub Inc?>
+<map activity="administer" operatingsystem="linux RHEL" product="SSFC4F_1.2.0"
+title="IBM Cloud Pak for Multicloud Management" type="messages command apiref proddoc" xml:lang="en-us">
+<topicref format="html" href="kc_welcome_cloud_pak.html" navtitle="IBM Cloud Pak for Multicloud Management V1.2.0" scope="local" type="topic"/>
+<navref mapref="mcm_toc.xml"/>
+<topicref format="html" href="icam.html" navtitle="Application performance management">
+    <navref mapref="../SS8G7U_19.4.0/com.ibm.app.mgmt.doc/toc_onprem.ditamap"/>
+</topicref>
+<topicref format="html" href="cem.html" navtitle="Event management">
+    <navref mapref="../SSURRN/KC_ditamaps/master_map.ditamap"/>
+</topicref>
+<topicref format="html" href="cam.html" navtitle="Infrastructure management">
+    <navref mapref="../SS2L37_4.1.0.0/cam_toc.xml"/>
+</topicref>
+<navref mapref="mcm_toc2.xml"/>
+<topicref format="html" href="about/notices.html" navtitle="Notices"/>
+<topicref format="html" href="about/cp_glossary.html" navtitle="Glossary"/>
+</map>
+<?Pub *0000005726?>
