@@ -47,4 +47,17 @@ You must enable the CIS policy controller. For more information, see _Enable the
 ## Some console features might not display in Firefox earlier versions
 {: #1100}
 
-The product supports Mozilla Firefox 74.0 or the latest version that is available for Linux, macOS, and Windows. Upgrade to the latest version for the best console compatibility. 
+The product supports Mozilla Firefox 74.0 or the latest version that is available for Linux, macOS, and Windows. Upgrade to the latest version for the best console compatibility.
+
+## CRD for a managed cluster must be ready before importing
+{: #1311}
+
+If you receive the following error when you import a cluster, the required CRD might not be ready:
+
+  ```
+  error: unable to recognize "STDIN": no matches for kind "Endpoint" in version "multicloud.ibm.com/v1beta1"
+  ```
+
+  To resolve, import the cluster again.
+
+
